@@ -14,7 +14,7 @@
 1. Clone or download this repository to your local machine.
 
    ```bash
-   git clone https://github.com/your-username/taylor-swift-page-cleaner.git
+   git clone https://github.com/simonkoeck/taylor-swift-page-cleaner.git
    ```
 
 2. Open Chrome and navigate to chrome://extensions/.
