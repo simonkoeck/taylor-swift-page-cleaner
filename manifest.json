@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Taylor Swift Page Cleaner",
+  "version": "1.0",
+  "description": "Clears the page when 'Taylor Swift' is found in the DOM body.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
